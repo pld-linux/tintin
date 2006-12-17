@@ -1,0 +1,11 @@
+--- tt/src/Makefile.in~	2006-04-21 11:14:59.000000000 +0200
++++ tt/src/Makefile.in	2006-12-17 12:39:34.000000000 +0100
+@@ -89,7 +89,7 @@
+ 
+ 
+ install: tt++
+-	cp tt++* /usr/bin
++	cp tt++* $(DESTDIR)/usr/bin
+ 
+ 
+ # Autocompile all .c files into .o files using this rule:
