@@ -7,9 +7,9 @@ License:	GPL v2+
 Group:		X11/Applications/Games
 Source0:	http://dl.sourceforge.net/tintin/%{name}-%{version}.tar.gz
 # Source0-md5:	4f171b8f73d29dd88934992114a5b683
-Patch0:		%{name}-Makefile.patch
 URL:		http://tintin.sourceforge.net/
 BuildRequires:	readline-devel
+BuildRequires:	sed >= 4.0
 BuildRequires:	zlib-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -21,7 +21,7 @@ TinTin++ jest klientem mudowym uruchamianym spod konsoli.
 
 %prep
 %setup -q -n tt
-%patch0 -p1
+%{__sed} -i -e 's@/usr/bin@$(DESTDIR)/usr/bin@g' src/Makefile.in
 
 %build
 cd src/
