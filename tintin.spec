@@ -24,7 +24,7 @@ TinTin++ jest klientem mudowym uruchamianym spod konsoli.
 %{__sed} -i -e 's@/usr/bin@$(DESTDIR)/usr/bin@g' src/Makefile.in
 
 %build
-cd src/
+cd src
 %configure
 %{__make}
 
@@ -32,7 +32,7 @@ cd src/
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_bindir}
 
-%{__make} -C src/ install \
+%{__make} -C src install \
 	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
