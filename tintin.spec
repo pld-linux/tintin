@@ -1,5 +1,5 @@
 Summary:	A mud client that runs in console mode
-Summary(pl.UTF-8):   Klient mudowy uruchamiany na terminalu tekstowym
+Summary(pl.UTF-8):	Klient mudowy uruchamiany na terminalu tekstowym
 Name:		tintin
 Version:	1.96.6
 Release:	1
