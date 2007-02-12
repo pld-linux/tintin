@@ -1,5 +1,5 @@
 Summary:	A mud client that runs in console mode
-Summary(pl):	Klient mudowy uruchamiany na terminalu tekstowym
+Summary(pl.UTF-8):   Klient mudowy uruchamiany na terminalu tekstowym
 Name:		tintin
 Version:	1.96.6
 Release:	1
@@ -16,7 +16,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 TinTin++ is a mud client that runs in console mode.
 
-%description -l pl
+%description -l pl.UTF-8
 TinTin++ jest klientem mudowym uruchamianym na terminalu tekstowym.
 
 %prep
