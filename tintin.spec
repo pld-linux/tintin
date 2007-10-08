@@ -1,12 +1,12 @@
 Summary:	A mud client that runs in console mode
 Summary(pl.UTF-8):	Klient mudowy uruchamiany na terminalu tekstowym
 Name:		tintin
-Version:	1.97.5
+Version:	1.97.6
 Release:	1
 License:	GPL v2+
 Group:		Applications/Games
 Source0:	http://dl.sourceforge.net/tintin/%{name}-%{version}.tar.gz
-# Source0-md5:	80d69a25cda8613587072c41fdbf9bcf
+# Source0-md5:	0b0c1a999c40319813a85555c678fe9f
 URL:		http://tintin.sourceforge.net/
 BuildRequires:	readline-devel
 BuildRequires:	sed >= 4.0
