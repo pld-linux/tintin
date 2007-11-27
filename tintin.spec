@@ -9,7 +9,6 @@ Source0:	http://dl.sourceforge.net/tintin/%{name}-%{version}.tar.gz
 # Source0-md5:	836604f0ac96017291e5cf24292053c5
 URL:		http://tintin.sourceforge.net/
 BuildRequires:	readline-devel
-BuildRequires:	sed >= 4.0
 BuildRequires:	zlib-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
