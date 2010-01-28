@@ -9,6 +9,7 @@ Source0:	http://tintin-mud-client.googlecode.com/files/%{name}-%{version}.tar.gz
 # Source0-md5:	264992e7f5be3ca37501ff14fa81358e
 Patch0:		%{name}-cflags.patch
 URL:		http://tintin.sourceforge.net/
+BuildRequires:	pcre-devel
 BuildRequires:	readline-devel
 BuildRequires:	sed >= 4.0
 BuildRequires:	zlib-devel
