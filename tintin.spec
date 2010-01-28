@@ -46,4 +46,4 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc CREDITS FAQ README TODO docs/*.txt
-%attr(755,root,root) %{_bindir}/*
+%attr(755,root,root) %{_bindir}/tintin
