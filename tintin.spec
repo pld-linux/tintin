@@ -23,7 +23,7 @@ TinTin++ jest klientem mudowym uruchamianym na terminalu tekstowym.
 
 %prep
 %setup -q -n tt
-%patch0 -p1
+%patch -P0 -p1
 
 # change binary file name to better one
 %{__sed} -i -e 's@tt++@tintin@g' src/Makefile.in
